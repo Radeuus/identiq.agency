@@ -101,7 +101,7 @@ function Services() {
 
 export const metadata = {
   description:
-    'We are a development studio working at the intersection of design and technology.',
+    'Née de la passion pour la communication et de la volonté de faire une différence.',
 }
 
 export default async function Home() {
