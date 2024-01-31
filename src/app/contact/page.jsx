@@ -45,45 +45,6 @@ function RadioInput({ label, ...props }) {
 }
 
 function ContactForm() {
-  return (
-    <FadeIn className="lg:order-last">
-      <form>
-        <h2 className="font-display text-base font-semibold text-neutral-950">
-          Parlez-nous de vous.
-        </h2>
-        <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
-          <TextInput label="Nom" name="name" autoComplete="name" />
-          <TextInput
-            label="Email"
-            type="email"
-            name="email"
-            autoComplete="email"
-          />
-          <TextInput
-            label="Structure"
-            name="company"
-            autoComplete="organization"
-          />
-          <TextInput label="Téléphone" type="tel" name="phone" autoComplete="tel" />
-          <TextInput label="Message" name="message" />
-          <div className="border border-neutral-300 px-6 py-8 first:rounded-t-2xl last:rounded-b-2xl">
-            <fieldset>
-              <legend className="text-base/6 text-neutral-500">Budget</legend>
-              <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2">
-                <RadioInput label="Moins de 500€" name="budget" value="5" />
-                <RadioInput label="500€ – 2 000€" name="budget" value="50" />
-                <RadioInput label="2 000€ – 5 000€" name="budget" value="100" />
-                <RadioInput label="Plus que 5 000€" name="budget" value="150" />
-              </div>
-            </fieldset>
-          </div>
-        </div>
-        <Button type="submit" className="mt-10">
-          Envoyer
-        </Button>
-      </form>
-    </FadeIn>
-  )
 }
 
 function ContactDetails() {
