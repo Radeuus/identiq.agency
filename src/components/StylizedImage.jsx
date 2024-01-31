@@ -40,6 +40,7 @@ export function StylizedImage({ shape = 0, className, ...props }) {
                 className="w-full bg-neutral-100 object-cover"
                 style={{ aspectRatio: `${width} / ${height}` }}
                 {...props}
+                layout='fill'
               />
             </foreignObject>
           </g>

@@ -12,7 +12,8 @@ import { Testimonial } from '@/components/Testimonial'
 import logoOlympe from '@/images/clients/olympe.png'
 import logoFavvey from '@/images/clients/favvey.png'
 
-import imageLaptop from '@/images/laptop.jpg'
+
+import imageLaptop from '@/images/test.png'
 import { loadCaseStudies } from '@/lib/mdx'
 
 const clients = [
@@ -42,7 +43,7 @@ function Clients() {
               src={logo}
               alt={client}
               unoptimized
-              style={{ maxWidth: '100%', maxHeight: '100%' }} // Ajout des styles pour définir une taille maximale
+              style={{ maxWidth: '100%', maxHeight: '100%' }} 
             />
           </FadeIn>
           </li>
@@ -73,7 +74,7 @@ function Services() {
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
               <StylizedImage
                 src={imageLaptop}
-                sizes="(min-width: 1024px) 41rem, 31rem"
+                sizes="(min-width: 2048px) 41rem, 31rem"
                 className="justify-center lg:justify-end"
               />
             </FadeIn>
