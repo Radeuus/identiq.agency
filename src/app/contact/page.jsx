@@ -49,7 +49,7 @@ function ContactForm() {
     <FadeIn className="lg:order-last">
       <form>
         <h2 className="font-display text-base font-semibold text-neutral-950">
-          Parlez-nous de vous.
+          Parlez-nous de vous. *
         </h2>
         <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
           <TextInput label="Nom" name="name" autoComplete="name" />
@@ -93,7 +93,7 @@ function ContactDetails() {
         <h2 className="font-display text-base font-semibold text-neutral-950">
           Email
         </h2>
-        <dl className="mt-6 grid grid-cols-1 gap-8 text-sm sm:grid-cols-2">
+        <dl className="mt-6 grid grid-cols-1 gap--8 text-sm sm:grid-cols-2">
           {[
             ['Contact', 'contact@identiq.agency'],
             ['Quentin', 'contact@itsme.blue'],
