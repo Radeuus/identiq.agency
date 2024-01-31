@@ -49,7 +49,7 @@ function ContactForm() {
     <FadeIn className="lg:order-last">
       <form>
         <h2 className="font-display text-base font-semibold text-neutral-950">
-          Parlez-nous de vous. **
+          Parlez-nous de vous.
         </h2>
         <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
           <TextInput label="Nom" name="name" autoComplete="name" />

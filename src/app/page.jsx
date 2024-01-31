@@ -70,7 +70,7 @@ function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-        Un éventail de services pour concrétiser chaque vision
+          Un éventail de services pour concrétiser chaque vision
         </p> 
       </SectionIntro>
       <Container className="mt-16">
@@ -86,7 +86,7 @@ function Services() {
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Montage">
-              Capturez l\'essence de votre créativité et amplifiez votre impact sur les réseaux avec des montages TikTok et YouTube dynamiques qui captent et retiennent l\'attention.
+              Capturez l&apos;essence de votre créativité et amplifiez votre impact sur les réseaux avec des montages TikTok et YouTube dynamiques qui captent et retiennent l&apos;attention.
             </ListItem>
             <ListItem title="Communication">
               Sublimez votre message à travers des stratégies de communication innovantes et adaptées à votre audience.
@@ -95,7 +95,7 @@ function Services() {
               Transformez vos idées en mots impactants, avec une rédaction soignée et adaptée à vos besoins.
             </ListItem>
             <ListItem title="Game Design">
-              Éveillez l\'imaginaire de vos joueurs en concevant des univers ludiques captivants et des mécaniques de jeu innovantes qui dépassent les frontières de l\'ordinaire.
+              Éveillez l&apos;imaginaire de vos joueurs en concevant des univers ludiques captivants et des mécaniques de jeu innovantes qui dépassent les frontières de l&apos;ordinaire.
             </ListItem>
           </List>
         </div>
@@ -117,7 +117,7 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Ensemble, créons l\'identité qui vous siéra le mieux.
+            Ensemble, créons l&apos;identité qui vous siéra le mieux.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
             Nous sommes une agence de communication, spécialisé dans la création de contenu digital. Faites-nous confiance et donnons vie à votre vision.
