@@ -14,12 +14,12 @@ import logoOlympe from '@/images/clients/olympe.png'
 import logoFavvey from '@/images/clients/favvey.png'
 
 
-import imageLaptop from '@/images/test.png'
+import imageLaptop from '@/images/shop.png'
 import { loadCaseStudies } from '@/lib/mdx'
 
 const clients = [
-  ['Olympe', logoOlympe, 'https://olympe.gg/'], // URL for Olympe
-  ['Favvey', logoFavvey, 'https://favvey.com/'], // Replace with Favvey's URL
+  ['Olympe', logoOlympe, 'https://olympe.gg/'], 
+  ['Favvey', logoFavvey, 'https://favvey.com/'], 
 ]
 
 function Clients() {
@@ -84,16 +84,16 @@ function Services() {
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Montage">
-              Capturez l&apos;essence de votre créativité et amplifiez votre impact sur les réseaux avec des montages TikTok et YouTube dynamiques qui captent et retiennent l&apos;attention.
+              Sculptez votre histoire et racontez-la de manière captivante avec un montage vidéo professionnel. Format Youtube et TikTok avec voix-off. 
+            </ListItem>
+            <ListItem title="Motion Design">
+              Donnez vie à vos idées et plongez votre public dans une expérience immersive avec des animations fluides et captivantes.
             </ListItem>
             <ListItem title="Communication">
               Sublimez votre message à travers des stratégies de communication innovantes et adaptées à votre audience.
             </ListItem>
             <ListItem title="Rédaction">
               Transformez vos idées en mots impactants, avec une rédaction soignée et adaptée à vos besoins.
-            </ListItem>
-            <ListItem title="Game Design">
-              Éveillez l&apos;imaginaire de vos joueurs en concevant des univers ludiques captivants et des mécaniques de jeu innovantes qui dépassent les frontières de l&apos;ordinaire.
             </ListItem>
           </List>
         </div>
@@ -115,7 +115,7 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Ensemble, créons l&apos;identité qui vous siéra le mieux.
+            Ensemble, créons l&apos;identité qui vous correspond.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
             Nous sommes une agence de communication, spécialisé dans la création de contenu digital. Faites-nous confiance et donnons vie à votre vision.
