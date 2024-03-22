@@ -9,7 +9,6 @@ import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
 
-import { Link } from 'next/link'
 
 import logoOlympe from '@/images/clients/olympe.png'
 import logoFavvey from '@/images/clients/favvey.png'
@@ -19,8 +18,8 @@ import imageLaptop from '@/images/test.png'
 import { loadCaseStudies } from '@/lib/mdx'
 
 const clients = [
-  ['Olympe', logoOlympe, 'https://favvey.com/'], // URL for Olympe
-  ['Favvey', logoFavvey, 'https://www.example.com/'], // Replace with Favvey's URL
+  ['Olympe', logoOlympe, 'https://olympe.gg/'], // URL for Olympe
+  ['Favvey', logoFavvey, 'https://favvey.com/'], // Replace with Favvey's URL
 ]
 
 function Clients() {
