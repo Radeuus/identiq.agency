@@ -9,17 +9,18 @@ import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
 
+import { Link } from 'next/link'
+
 import logoOlympe from '@/images/clients/olympe.png'
 import logoFavvey from '@/images/clients/favvey.png'
-import { Link } from 'next/link'
 
 
 import imageLaptop from '@/images/test.png'
 import { loadCaseStudies } from '@/lib/mdx'
 
 const clients = [
-  ['Olympe', logoOlympe, 'https://favvey.com/'],
-  ['Favvey', logoFavvey, 'https://favvey.com/'],
+  ['Olympe', logoOlympe, 'https://favvey.com/'], // URL for Olympe
+  ['Favvey', logoFavvey, 'https://www.example.com/'], // Replace with Favvey's URL
 ]
 
 function Clients() {
@@ -37,18 +38,20 @@ function Clients() {
             role="list"
             className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4 items-center justify-center"
           >
-          {clients.map(([client, logo]) => (
-          <li key={client} className="flex items-center justify-center">
-          <FadeIn>
-            <Image
-              src={logo}
-              alt={client}
-              unoptimized
-              style={{ maxWidth: '100%', maxHeight: '100%' }} 
-            />
-          </FadeIn>
-          </li>
-          ))}
+            {clients.map(([client, logo, url]) => (
+              <li key={client} className="flex items-center justify-center">
+                <FadeIn>
+                  <Link href={url}>  {/* Wrap logo in Link component */}
+                    <Image
+                      src={logo}
+                      alt={client}
+                      unoptimized
+                      style={{ maxWidth: '100%', maxHeight: '100%' }} 
+                    />
+                  </Link>
+                </FadeIn>
+              </li>
+            ))}
           </ul>
         </FadeInStagger>
       </Container>
