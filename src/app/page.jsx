@@ -11,14 +11,15 @@ import { Testimonial } from '@/components/Testimonial'
 
 import logoOlympe from '@/images/clients/olympe.png'
 import logoFavvey from '@/images/clients/favvey.png'
+import { Link } from 'next/link'
 
 
 import imageLaptop from '@/images/test.png'
 import { loadCaseStudies } from '@/lib/mdx'
 
 const clients = [
-  ['Olympe', logoOlympe],
-  ['Favvey', logoFavvey],
+  ['Olympe', logoOlympe, 'https://favvey.com/'],
+  ['Favvey', logoFavvey, 'https://favvey.com/'],
 ]
 
 function Clients() {
