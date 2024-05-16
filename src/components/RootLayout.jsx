@@ -66,8 +66,8 @@ function Header({
           />
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href="/contact" invert={invert}>
-            Contactez-nous
+          <Button href="/about" invert={invert}>
+            Créations
           </Button>
           <Button href="https://discord.com/invite/P3m8hXuafN" invert={invert}>
             Discord
@@ -101,18 +101,6 @@ function NavigationItem({ href, children }) {
 }
 
 function Navigation() {
-  return (
-    <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
-      <NavigationRow>
-        <NavigationItem href="/work">Our Work</NavigationItem>
-        <NavigationItem href="/about">About Us</NavigationItem>
-      </NavigationRow>
-      <NavigationRow>
-        <NavigationItem href="/process">Our Process</NavigationItem>
-        <NavigationItem href="/blog">Blog</NavigationItem>
-      </NavigationRow>
-    </nav>
-  )
 }
 
 function RootLayoutInner({ children }) {
