@@ -89,7 +89,7 @@ function Services() {
               Sculptez votre histoire et racontez-la de manière captivante avec un montage vidéo professionnel. Format Youtube et TikTok avec voix-off. 
             </ListItem>
             <ListItem title="Identité visuelle">
-              Définissez l''âme de votre marque avec une identité visuelle cohérente et mémorable, incluant logo, palette de couleurs, typographie et plus encore.
+             {"Définissez  l'âme de votre marque avec une identité visuelle cohérente et mémorable, incluant logo, palette de couleurs, typographie et plus encore."}
             </ListItem>
             <ListItem title="Motion Design">
               Donnez vie à vos idées et plongez votre public dans une expérience immersive avec des animations fluides et captivantes.
