@@ -5,7 +5,9 @@ import { ContactSection } from '@/components/ContactSection'
 import { Container } from '@/components/Container'
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 import { PageIntro } from '@/components/PageIntro'
-import imagegcom from '@/images/team/gcom.png'
+import imagegcom from '@/images/team/gcom1.png'
+import imagelording from '@/images/team/lording.png'
+import imagecoastline from '@/images/team/coastlineO.png'
 import blanc from '@/images/team/blanc.png'
 import { loadArticles } from '@/lib/mdx'
 
@@ -25,12 +27,12 @@ const team = [
       {
         name: 'Coastline Creation',
         role: 'Minecraft Trailer',
-        image: { src: blanc },
+        image: { src: imagecoastline },
       },
       {
         name: 'Lording Quest',
         role: 'TikTok - Test',
-        image: { src: blanc },
+        image: { src: imagelording },
         link: 'https://youtube.com/shorts/mbXK4Z2NqkA?feature=share',
       },
     ],

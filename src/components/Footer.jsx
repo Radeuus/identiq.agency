@@ -30,7 +30,7 @@ export function Footer() {
             <Logo className="h-8" fillOnHover />
           </Link>
           <p className="text-sm text-neutral-700">
-            © Identiq Agency {new Date().getFullYear()}
+            © Identiq Agency 2023 - {new Date().getFullYear()}
           </p>
         </div>
       </FadeIn>

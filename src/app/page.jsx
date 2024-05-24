@@ -12,6 +12,7 @@ import { Testimonial } from '@/components/Testimonial'
 
 import logoOlympe from '@/images/clients/olympe.png'
 import logoFavvey from '@/images/clients/favvey.png'
+import logoCoastline from '@/images/clients/coastlinebannerO.png'
 
 
 import imageLaptop from '@/images/shop.png'
@@ -20,6 +21,7 @@ import { loadCaseStudies } from '@/lib/mdx'
 const clients = [
   ['Olympe', logoOlympe, 'https://olympe.gg/'], 
   ['Favvey', logoFavvey, 'https://favvey.com/'], 
+  ['Coastline', logoCoastline, 'https://discord.gg/crab'], 
 ]
 
 function Clients() {
@@ -86,11 +88,11 @@ function Services() {
             <ListItem title="Montage">
               Sculptez votre histoire et racontez-la de manière captivante avec un montage vidéo professionnel. Format Youtube et TikTok avec voix-off. 
             </ListItem>
+            <ListItem title="Identité visuelle">
+              Définissez l'âme de votre marque avec une identité visuelle cohérente et mémorable, incluant logo, palette de couleurs, typographie et plus encore.
+            </ListItem>
             <ListItem title="Motion Design">
               Donnez vie à vos idées et plongez votre public dans une expérience immersive avec des animations fluides et captivantes.
-            </ListItem>
-            <ListItem title="Communication">
-              Sublimez votre message à travers des stratégies de communication innovantes et adaptées à votre audience.
             </ListItem>
             <ListItem title="Rédaction">
               Transformez vos idées en mots impactants, avec une rédaction soignée et adaptée à vos besoins.
@@ -104,7 +106,7 @@ function Services() {
 
 export const metadata = {
   description:
-    'Née de la passion pour la communication et de la volonté de faire une différence.',
+    'Née de la passion pour la création.',
 }
 
 export default async function Home() {
