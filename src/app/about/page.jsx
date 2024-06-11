@@ -28,6 +28,7 @@ const team = [
         name: 'Coastline Creation',
         role: 'Minecraft Trailer',
         image: { src: imagecoastline },
+        link: 'https://www.youtube.com/watch?v=Mj5FTQZDMuM',
       },
       {
         name: 'Lording Quest',
