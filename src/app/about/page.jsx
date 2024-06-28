@@ -7,6 +7,7 @@ import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 import { PageIntro } from '@/components/PageIntro'
 import imagegcom from '@/images/team/gcom1.png'
 import imagelording from '@/images/team/lording.png'
+import imageminenetwork from '@/images/team/MineNetwork.png'
 import imagecoastline from '@/images/team/creation.png'
 import blanc from '@/images/team/blanc.png'
 import { loadArticles } from '@/lib/mdx'
@@ -42,9 +43,10 @@ const team = [
     title: 'Graphisme',
     people: [
       {
-        name: 'test',
-        role: 'test',
-        image: { src: blanc },
+        name: 'MineNetwork',
+        role: 'DA Complète',
+        image: { src: imageminenetwork },
+        link: 'https://discord.com/channels/1160694364566212629/1250109518042365993',
       },
       {
         name: 'test',
