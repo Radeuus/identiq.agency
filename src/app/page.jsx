@@ -88,11 +88,11 @@ function Services() {
             <ListItem title="Montage">
               Sculptez votre histoire et racontez-la de manière captivante avec un montage vidéo professionnel. Format Youtube et TikTok avec voix-off. 
             </ListItem>
+            <ListItem title="Web Design">
+              Créez une expérience utilisateur immersive et intuitive avec un design de site web professionnel.
+            </ListItem>
             <ListItem title="Identité visuelle">
              {"Définissez  l'âme de votre marque avec une identité visuelle cohérente et mémorable, incluant logo, palette de couleurs, typographie et plus encore."}
-            </ListItem>
-            <ListItem title="Motion Design">
-              Donnez vie à vos idées et plongez votre public dans une expérience immersive avec des animations fluides et captivantes.
             </ListItem>
             <ListItem title="Rédaction">
               Transformez vos idées en mots impactants, avec une rédaction soignée et adaptée à vos besoins.
