@@ -122,6 +122,9 @@ export default async function Home() {
           <p className="mt-6 text-xl text-neutral-600">
             Nous sommes une agence de communication, spécialisé dans la création de contenu digital. Faites-nous confiance et donnons vie à votre vision.
           </p>
+          <p className="mt-6 text-xl text-neutral-600">
+            Identiq Agency est actuellement en refonte, le site ainsi que les créations associées ne sont pas à jour.
+          </p>
         </FadeIn>
       </Container>
 
